@@ -7,7 +7,8 @@ import { PorPaisComponent } from './pages/por-pais/por-pais.component';
 import { PorRegionComponent } from './pages/por-region/por-region.component';
 import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 import { RouterModule } from '@angular/router';
-
+import { TablaComponent } from './components/tabla/tabla.component';
+import { InputComponent } from './components/input/input.component';
 
 
 @NgModule({
@@ -15,13 +16,16 @@ import { RouterModule } from '@angular/router';
     PorCapitalComponent,
     PorPaisComponent,
     PorRegionComponent,
-    VerPaisComponent
+    VerPaisComponent,
+    TablaComponent,
+    InputComponent
   ],
   exports:[
     PorCapitalComponent,
     PorPaisComponent,
     PorRegionComponent,
-    VerPaisComponent
+    VerPaisComponent,
+    TablaComponent
   ],
   imports: [
     CommonModule,
